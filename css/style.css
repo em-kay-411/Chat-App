@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Staatliches&display=swap');
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(119 123 125), #2c3339);
+}
+
+.navbar{
+    background-color: #a9a887;
+    width: 101%;
+    margin: -8px; 
+}
+
+.navbar div{
+    display: block;
+    margin: auto;    
+}
+
+.navbar h1{
+    color: white;
+    font-family: 'Handlee', cursive;
+    font-weight: bolder;
+    margin-top: -6px;
+    text-align: center;
+}
+
+.logo{
+    display:block;
+    margin:auto;
+    width: 125px;
+    height: 90px;
+}
+
+.container{
+    background-image: url(/chat.jpg);
+    background-color: rgb(136, 186, 186);
+    max-width: 955px;
+    margin: auto;
+    height: 60vh;
+    overflow-y:auto ;
+}
+
+.message{    
+    width: 20%;
+    padding: 20px;
+    margin: 17px 2px;    
+    border-radius: 2px;
+}
+
+.left{
+    color: white;
+    background-color: #2d4050;
+    border: solid #2d4050;
+    border-radius: 20px;
+    float: left;
+    clear: both;
+    margin: 17px 10px;
+
+}
+
+.right{
+    color: white;
+    background-color: #76828a;
+    border: solid #76828a;
+    border-radius: 20px;
+    float: right;
+    clear: both;
+    margin: 17px 10px;
+}
+
+#send-cont{
+    display: block;
+    margin: auto;
+    text-align: center;    
+
+}
+
+#message_input{
+    margin-top: 10px;
+    width: 61%;
+}
+
+.btn{
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    margin-left: 0px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background: rgb(216, 237, 239); 
+    box-shadow: 0 0 100px rgb(216, 237, 239);
+    
+}
+
+.btn img{
+    height: 15px;
+    width: 19px;
+    margin-top: 3px;
+}
+
+.foot{
+    font-size: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;    
+    color: white;
+    text-align: center;
+}
+
